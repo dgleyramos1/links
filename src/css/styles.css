@@ -6,19 +6,20 @@ body{
 
 .grid{
     display: grid;
-    grid-template-areas:  
+    grid-template-columns: 4.5fr;
+    grid-template-rows: auto auto 40px;
+    grid-template-areas: 
     "info"
     "links"
     "footer";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+    
 }
 
 
 
 /*Section info profile*/
 .info--perfil{
-    grid-area: "info";
+    grid-area: info;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,4 +45,22 @@ body{
 .contato-item-link{
     color: var(--primary-color);
     font-size: 14px;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 12px;
 }
