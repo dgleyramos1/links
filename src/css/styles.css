@@ -48,8 +48,33 @@ body{
 }
 
 
+/*List of links*/
+.list--links{
+    grid-area: links;
+    padding: 5%;
+}
 
+.links--content{
+    width: 100%;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
 
+.link-item{
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-link{
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 
 
 
