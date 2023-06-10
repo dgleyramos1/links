@@ -2,3 +2,39 @@ body{
     background-color: var(--secundary-color);
     font-family: var(--font);
 }
+
+
+.grid{
+    display: grid;
+    grid-template-areas:  
+    "info"
+    "links"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+
+
+/*Section info profile*/
+.info--perfil{
+    grid-area: "info";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.info--perfil-content-imagem{
+    width: 40%;
+}
+.info--perfil-imagem{
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+.info--perfil-nome{
+    font-size: 18px;
+}
+.info--perfil-cargo{
+    font-size: 14px;
+}
