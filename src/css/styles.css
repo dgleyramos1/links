@@ -38,3 +38,10 @@ body{
 .info--perfil-cargo{
     font-size: 14px;
 }
+.info--perfil-list-contato{
+    margin: 5px 0px;
+}
+.contato-item-link{
+    color: var(--primary-color);
+    font-size: 14px;
+}
