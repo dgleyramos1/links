@@ -6,20 +6,15 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: 4.5fr;
     grid-template-rows: auto auto 40px;
     grid-template-areas: 
     "info"
     "links"
     "footer";
-
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
-
-
 
 /*Section info profile*/
 .info--perfil{
